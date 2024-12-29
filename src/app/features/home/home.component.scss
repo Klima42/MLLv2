@@ -1,0 +1,16 @@
+.hero {
+  @apply min-h-screen flex items-center justify-center;
+  background: linear-gradient(180deg, theme('colors.gray.50') 0%, theme('colors.white') 100%);
+  
+  &__content {
+    @apply max-w-[980px] mx-auto px-4 text-center;
+    
+    h1 {
+      @apply text-6xl md:text-7xl font-semibold tracking-tight mb-8;
+    }
+    
+    p {
+      @apply text-xl md:text-2xl text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed;
+    }
+  }
+}

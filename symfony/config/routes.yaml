@@ -1,0 +1,10 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+
+api_registrations:
+    path: /api/registrations
+    controller: App\Controller\RegistrationController::store
+    methods: [POST]
